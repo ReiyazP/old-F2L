@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "457352480112",
+    "project_id": "functional2live-8a291",
+    "storage_bucket": "functional2live-8a291.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457352480112:android:41fac239b9601c5d66fbb5",
+        "android_client_info": {
+          "package_name": "com.f2l"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwfCvYgemAsl8cRsVi26dPJbfDJXkYzGo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,8 +1,18 @@
+# Setup
+
+Use git clone to clone the repository in your local directory
+
+Run npm install
+
+# from `ios` directory
+
+bundle install && RCT_NEW_ARCH_ENABLED=1 bundle exec pod install
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+> **Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
 ## Step 1: Start the Metro Server
 
