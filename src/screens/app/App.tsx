@@ -1,5 +1,4 @@
 import * as React from 'react';
-import {SafeAreaView} from 'react-native';
 import {Provider} from 'react-redux';
 
 import {NavigationContainer} from '@react-navigation/native';
@@ -9,14 +8,14 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {store} from 'store';
 import HomeScreen from 'screens/home';
 import ProfileScreen from 'screens/profile';
-// import {useRedux} from 'hooks';
+import {useRedux} from 'hooks';
 
 // enableScreens();
 const Stack = createNativeStackNavigator();
 
 const App = () => {
-  // const auth = useRedux('auth');
-  // console.log('in app', auth.isLoggedIn, auth.username);
+  const auth = useRedux('auth');
+  console.log('in app', auth.isLoggedIn, auth.username);
   return (
     <NavigationContainer>
       <Stack.Navigator>

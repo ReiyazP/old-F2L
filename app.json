@@ -1,4 +1,10 @@
 {
   "name": "F2L",
-  "displayName": "F2L"
+  "displayName": "F2L",
+  "expo": {
+    "slug": "F2L",
+    "name": "F2L",
+    "sdkVersion": "51.0.0",
+    "entryPoint": ".vscode/exponentIndex.js"
+  }
 }
